@@ -37,6 +37,6 @@ Hotel Booking API is a simple RESTful web service designed to handle hotel booki
 
 ##### Documentation:
 
-    ASP.NET Core Documentation
-    Entity Framework Core Documentation
-    XUnit Documentation
+    - [ASP.NET Core Documentation](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
+    - [Entity Framework Core Documentation]
+    - [XUnit Documentation]
