@@ -3,23 +3,11 @@
 Hotel Booking API is a simple RESTful web service designed to handle hotel bookings. It provides endpoints for creating, updating, deleting, and retrieving hotel bookings. The API is built using ASP.NET Core and utilizes an in-memory database for storing booking data.
 
 ## Usage Instructions:
-  - To add a new booking, make sure the Id field in the JSON object is always set to 0. This indicates that it is a new booking.  
-
-### Endpoints:
-  - POST /api/HotelBooking/CreateEdit: Creates a new booking or updates an existing one.
-        Request Body: JSON object representing the booking details.
-        Response: JSON object indicating the success or failure of the operation.
-    
-  - GET /api/HotelBooking/Get/{id}: Retrieves the details of a specific booking by its ID.
-        Path Parameter: Booking ID.
-        Response: JSON object containing the booking details if found or an error message if not found.
-        
-  - DELETE /api/HotelBooking/Delete/{id}: Deletes a booking by its ID.
-        Path Parameter: Booking ID.
-        Response: JSON object indicating the success or failure of the operation.
-
-  - GET /api/HotelBooking/GetAll: Retrieves all bookings stored in the database.
-        Response: JSON array containing all booking objects.
+  - Creating or Editing a Booking:
+    Endpoint: /api/HotelBooking/CreateEdit
+    Method: POST
+    Description: Use this endpoint to create a new booking or edit an existing booking.
+    Request Body: Provide a JSON object representing the booking you want to create or edit. Ensure that the Id field is set to 0 for new bookings and to the desired booking ID for editing existing bookings.
 
 
 #### Technologies and Tools Used:
