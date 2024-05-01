@@ -9,8 +9,8 @@ Hotel Booking API is a simple RESTful web service designed to handle hotel booki
   - POST /api/HotelBooking/CreateEdit: Creates a new booking or updates an existing one.
         Request Body: JSON object representing the booking details.
         Response: JSON object indicating the success or failure of the operation.
-
-    - GET /api/HotelBooking/Get/{id}: Retrieves the details of a specific booking by its ID.
+    
+  - GET /api/HotelBooking/Get/{id}: Retrieves the details of a specific booking by its ID.
         Path Parameter: Booking ID.
         Response: JSON object containing the booking details if found, or an error message if not found.
 
