@@ -6,7 +6,7 @@ Hotel Booking API is a simple RESTful web service designed to handle hotel booki
   - To add a new booking, make sure the Id field in the JSON object is always set to 0. This indicates that it is a new booking.  
 
 ### Endpoints:
-    - POST /api/HotelBooking/CreateEdit: Creates a new booking or updates an existing one.
+  - POST /api/HotelBooking/CreateEdit: Creates a new booking or updates an existing one.
         Request Body: JSON object representing the booking details.
         Response: JSON object indicating the success or failure of the operation.
 
