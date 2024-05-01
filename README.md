@@ -36,7 +36,6 @@ Hotel Booking API is a simple RESTful web service designed to handle hotel booki
   - XUnit: A testing framework for .NET used to create unit tests.
 
 ##### Documentation:
-
-    - [ASP.NET Core Documentation](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
+    - [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
     - [Entity Framework Core Documentation]
     - [XUnit Documentation]
