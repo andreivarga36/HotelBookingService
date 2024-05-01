@@ -4,10 +4,10 @@ Hotel Booking API is a simple RESTful web service designed to handle hotel booki
 
 ## Usage Instructions:
   - Creating or Editing a Booking:
-    Endpoint: /api/HotelBooking/CreateEdit
-    Method: POST
-    Description: Use this endpoint to create a new booking or edit an existing booking.
-    Request Body: Provide a JSON object representing the booking you want to create or edit. Ensure that the Id field is set to 0 for new bookings and to the desired booking ID for editing existing bookings.
+-Endpoint: /api/HotelBooking/CreateEdit
+-Method: POST
+-Description: Use this endpoint to create a new booking or edit an existing booking.
+-Request Body: Provide a JSON object representing the booking you want to create or edit. Ensure that the Id field is set to 0 for new bookings and to the desired booking ID for editing existing bookings.
 
 
 #### Technologies and Tools Used:
