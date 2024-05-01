@@ -26,10 +26,12 @@ namespace HotelBookingApi.Controllers
             {
                 var bookingInDb = context.Bookings.Find(booking.Id);
 
-                if (bookingInDb == null) 
+                if (bookingInDb == null)
                 {
                     return new JsonResult(NotFound());
                 }
+
+                EditBooking(booking, bookingInDb);
             }
 
             context.SaveChanges();
@@ -72,6 +74,12 @@ namespace HotelBookingApi.Controllers
             var result = context.Bookings.ToList();
 
             return new JsonResult(Ok(result));
+        }
+
+        private static void EditBooking(HotelBooking booking, HotelBooking bookingInDb)
+        {
+            bookingInDb.RoomNumber = booking.RoomNumber;
+            bookingInDb.ClientName = booking.ClientName;
         }
     }
 }
