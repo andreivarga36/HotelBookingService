@@ -11,7 +11,7 @@ The Hotel Booking API is a RESTful web service designed to manage hotel bookings
 
   - Use the **GetAll** endpoint in order to receive all bookings registred in database.
 
-#### Technologies and Tools Used:
+### Technologies and Tools Used:
 
   - **C#**: The primary programming language for developing the API.
     
@@ -25,7 +25,7 @@ The Hotel Booking API is a RESTful web service designed to manage hotel bookings
 
   - **XUnit**: A testing framework for .NET used to create unit tests.
 
-##### Screenshots:
+#### Screenshots:
 
   - [Booking is created](HotelBookingApi/Screenshots/CreateBooking.jpg)
 
