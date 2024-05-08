@@ -9,7 +9,7 @@ The Hotel Booking API is a RESTful web service designed to manage hotel bookings
 
   - Use the **Delete** endpoint in order to delete a booking from database. If the booking is succesfully deleted, **NoContent** message wil be displayed. If the booking is not found in database, **NotFound** message will be displayed.
 
-  - Use the **GetAll** in order to receive all bookings registred in database.
+  - Use the **GetAll** endpoint in order to receive all bookings registred in database.
 
 #### Technologies and Tools Used:
 
