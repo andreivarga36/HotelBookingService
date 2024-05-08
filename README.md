@@ -29,7 +29,16 @@ The Hotel Booking API is a RESTful web service designed to manage hotel bookings
 
   - [Booking is created](HotelBookingApi/Screenshots/CreateBooking.jpg)
 
+  - [Booking is edited](HotelBookingApi/Screenshots/UpdateBooking.jpg)
+
+  - [Read booking](HotelBookingApi/Screenshots/ReadBooking.jpg)
+
+  - [Read all bookings](HotelBookingApi/Screenshots/ReadAllBokings.jpg)
+
+  - [Booking is deleted](HotelBookingApi/Screenshots/DeleteBooking.jpg)
+
 ##### Documentation:
 
    - [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
+     
    - [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli)
