@@ -1,6 +1,6 @@
 # HotelBookingAPI
 
-The Hotel Booking API is a RESTful web service designed to manage hotel bookings, providing endpoints for creating, reading, updating, and deleting reservations. The API is built using ASP.NET Core and utilizes an in-memory database for storing booking data.
+The Hotel Booking API is a RESTful web service designed to manage hotel bookings, providing endpoints for creating, reading, updating and deleting reservations. The API is built using ASP.NET Core and utilizes an in-memory database for storing booking data.
 
 ## Usage Instructions:
   - Use the **CreateEdit** endpoint in order to create or edit a booking. For a new booking, the Id must be 0. If the user enters a different Id than 0, the system will search for a booking with that Id. Therefore, 0 is used to register a new booking, while any other numbers are used for editing, in case the booking already exists in the system
