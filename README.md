@@ -29,13 +29,9 @@ The Hotel Booking API is a RESTful web service designed to manage hotel bookings
 
   - [Booking is created](HotelBookingApi/Screenshots/CreateBooking.jpg)
 
-  - [Booking is edited](HotelBookingApi/Screenshots/EditBooking.jpg)
-
   - [Read booking](HotelBookingApi/Screenshots/ReadBooking.jpg)
 
-  - [Read all bookings](HotelBookingApi/Screenshots/ReadAllBookings.jpg)
-
-  - [Booking is deleted](HotelBookingApi/Screenshots/DeleteBooking.jpg)
+    For more screenshots, please visit [Screenshots](https://github.com/andreivarga36/HotelBookingService/tree/master/HotelBookingApi/Screenshots)
 
 ##### Documentation:
 
